@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated datasets and temporary outputs
+data/generated/
+data/raw/
+outputs/
+
+# Model binaries
+*.joblib
+
+# Research evidence: preserve CSV, Markdown, JSON and plots
+*.png
+!research/
+!research/**/*.png
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS
+.DS_Store
+.vscode/
+
+# Course documents (not required in public repository)
+DIP_Course_Project_Guidelines_2026.pdf
+DIP_Course_Project_Instructions_and_62_Topics_2026.pdf
